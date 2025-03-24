@@ -1,1 +1,2 @@
 # docker-lens
+require privileged 
