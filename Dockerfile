@@ -1,6 +1,6 @@
 # FROM ghcr.io/linuxserver/baseimage-kasmvnc:debianbookworm
 # FROM ghcr.io/linuxserver/chromium:amd64-latest
-FROM lscr.io/linuxserver/webtop:ubuntu-kde
+FROM ghcr.io/linuxserver/webtop:ubuntu-kde
 
 # 安裝 locales 來支援多國語言
 RUN apt-get update && apt-get install -y locales \
